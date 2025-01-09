@@ -165,3 +165,22 @@ BibTeX entry:
   github       = {https://github.com/rasbt/LLMs-from-scratch}
 }
 ```
+
+
+MACOS Setup: 
+
+```bash
+conda create -n llm-from-scratch python=3.11
+```
+
+```bash
+conda install pytorch torchvision torchaudio -c pytorch-nightly
+```
+
+```bash
+conda install ipykernel
+```
+
+```bash
+ipython kernel install --user --name=llm-from-scratch
+```
